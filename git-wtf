@@ -86,7 +86,6 @@ if ARGV.delete("--help") || ARGV.delete("-h")
   exit
 end
 
-## poor man's trollop
 $long = ARGV.delete("--long") || ARGV.delete("-l")
 $short = ARGV.delete("--short") || ARGV.delete("-s")
 $all = ARGV.delete("--all") || ARGV.delete("-a")
